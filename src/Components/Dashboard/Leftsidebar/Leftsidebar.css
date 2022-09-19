@@ -1,0 +1,38 @@
+#containerleft{
+    padding-top: 80px;
+    background-color: #1976D2;
+    color: whitesmoke;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+#item{
+    align-items: center;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#icon{
+}
+#item:hover{
+ transition: all 1s;
+ color: gray;
+
+}
+#icon{
+    margin-right: 5px;
+    margin-top: -2px;
+    font-size: 20px;
+}
+.text1{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    /* .text{
+        display: none;
+    } */
+    #text{
+        display: none;
+    }
+}

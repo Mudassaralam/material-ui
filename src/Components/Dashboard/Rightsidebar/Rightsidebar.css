@@ -1,0 +1,10 @@
+#containerright{
+    padding-top: 80px;
+
+}
+@media only screen and (max-width: 800px) {
+    #containerright{
+        display: none;
+    
+    }
+}

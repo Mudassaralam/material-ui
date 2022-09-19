@@ -1,0 +1,26 @@
+.add-post-btn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#icon-add{
+    font-size: 60px;
+}
+.modal-container{
+    top: 50px;
+    width: 50%;
+    height: 400px;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding:5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.form-addpost{
+    padding: 5px;
+}
